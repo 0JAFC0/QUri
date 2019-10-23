@@ -1,0 +1,6 @@
+numberf = int(input())
+numberofhourt = int(input())
+sporhora = float(input())
+salario = (numberofhourt * sporhora)
+print("NUMBER = {}".format(numberf))
+print("SALARY = U$ {:.2f}".format(salario))
