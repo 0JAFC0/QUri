@@ -1,0 +1,24 @@
+#    c    b     bo   ma    ia
+g = [300, 1500, 600, 1000, 150]
+p = 225
+
+for c in range(len(g)):
+    n = int(input())# porção
+    p += (n * g[c])
+print(p)
+##n1 = int(input())
+##p = p + (n1 * g[0])
+##
+##n2 = int(input())
+##p = p + (n2 * g[1])
+##
+##n3 = int(input())
+##p = p + (n3 * g[2])
+##
+##n4 = int(input())
+##p = p + (n4 * g[3])
+##
+##n5 = int(input())
+##p = p + (n5 * g[4])
+##
+##print(p)
